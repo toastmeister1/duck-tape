@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="duck-tape.app" target="11" />
+      <module name="duck-tape.modules.app" target="11" />
+      <module name="duck-tape.modules.local" target="11" />
+      <module name="duck-tape.modules.presentation" target="11" />
+      <module name="duck-tape.modules.remote" target="1.8" />
+      <module name="duck-tape.modules.remote.main" target="1.8" />
+      <module name="duck-tape.modules.remote.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,6 +3,10 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
 }
 dependencyResolutionManagement {
@@ -13,4 +17,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "duck-tape"
-include ':app'
+include ':modules:app'
+include ':modules:data'
+include ':modules:domain'
+include ':modules:remote'
+include ':modules:local'
+include ':modules:presentation'
