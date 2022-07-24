@@ -1,4 +1,4 @@
-package com.joseph.presentation
+package com.joseph.duck_tape.presentation
 
 import org.junit.Test
 

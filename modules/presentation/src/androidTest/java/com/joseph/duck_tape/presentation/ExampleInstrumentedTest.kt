@@ -1,4 +1,4 @@
-package com.joseph.presentation
+package com.joseph.duck_tape.presentation
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.joseph.presentation.test", appContext.packageName)
+        assertEquals("com.joseph.duck_tape.presentation.test", appContext.packageName)
     }
 }

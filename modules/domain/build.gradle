@@ -1,9 +1,13 @@
 plugins {
-    id 'java-library'
     id 'org.jetbrains.kotlin.jvm'
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_1_7
-    targetCompatibility = JavaVersion.VERSION_1_7
+dependencies {
+    implementation(libs.javax.inject)
+    implementation(libs.coroutines.core)
+
+    testImplementation(libs.bundles.junit5)
+    testImplementation(libs.truth)
+    testImplementation(libs.mockk.core)
+    testImplementation(libs.coroutines.test)
 }
